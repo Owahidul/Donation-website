@@ -5,17 +5,21 @@ body {
 }
 
 .top-banner {
-    background-image: url(donation9.jpg);
+    background-image: url(donation13.jpg);
     width: 100%;
-    height: 670px;
+    height: 669px;
     background-repeat: no-repeat;
     background-size: cover;
-
-
+    color: white;
 }
 
 .top-banner-gradiant {
-    background-image: linear-gradient(to top black, white);
+    display: flex;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1));
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .top-banner-title {
@@ -23,8 +27,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* height: 320px; */
-
 
 }
 
@@ -33,4 +35,26 @@ body {
     background-color: #FF5959;
     border-radius: 5px;
     padding: 16px 12px;
+    color: black;
+}
+
+.top-banner-title h1 {
+
+    width: 826px;
+    height: 158px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.top-banner-title p {
+    width: 691px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0%;
 }
